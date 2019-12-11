@@ -1,0 +1,35 @@
+1. Profile Information of Lakshman Gope : 
+
+Name      : Lakshman Gope
+Id        : 173-35-2256
+Phone num : 01742-824722
+B. Group  : B(+ve)
+Age       : 20
+
+
+2. Profile Information of Riyad Alom : 
+
+Name      : Riyad Alom
+Id        : 173-35-2248
+Phone num : 01740-280586
+B. Group  : A(+ve)
+Age       : 20
+
+
+3. Profile Information of Shawom BKCD : 
+
+Name      : Shawom BKCD
+Id        : 173-35-2255
+Phone num : 01902-837661
+B. Group  : B(+ve)
+Age       : 20
+
+4. Profile Information of Antu Ahmed : 
+
+Name      : Antu Ahmed
+Id        : 173-35-2219
+Phone num : 01761-378178
+B. Group  : A(+ve)
+Age       : 20
+
+
