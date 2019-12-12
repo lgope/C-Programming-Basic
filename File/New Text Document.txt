@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+#include<windows.h>
+#include<string.h>
+
+struct student
+{
+    int rollno;
+    char name[30];
+    float mark;
+};
+
+int main()
+{
+    struct student stu, stud;
+    int n;
+    printf("Enter your chose.\n");
+    printf("1. Insert\n");
+    scanf("%d", &n);
+    system("CLS");
+
+    switch(n)
+    {
+    case 1:
+        insert();
+        break;
+
+    }
+
+    return 0;
+}
+
+void insert()
+{
+    struct student stu, stud;
+    FILE *fp;
+    fp = fopen("record.txt", "w");
+    printf("Enter the roll no : ");
+    scanf("%d", &stud.rollno);
+
+    printf("Enter name : ");
+    scanf("%s", stud.name);
+
+    printf("Enter marks : ");
+    scanf("%f", &stud.mark);
+
+    fprintf(fp, "Roll no : %d\nName : %s\nMark : %.2f\n", stud.rollno, stud.name, stud.mark);
+    fclose(fp);
+}
