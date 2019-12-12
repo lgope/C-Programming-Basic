@@ -1,0 +1,13 @@
+#include<stdalign.h>
+int main()
+{
+    int n = 5, i = 1;
+    for ( ; ; ) {
+        printf("%d x %d = %d\n", n, i, n*i);
+        i = i + 1;
+        if (i > 10) {
+            break;
+        }
+    }
+    return 0;
+}
